@@ -10,5 +10,6 @@ public class Lambda7 {
 
         items.sort(Comparator.comparingInt(String::length).reversed());
         System.out.println("Sorted from longest to shortest: " + items);
+        items.forEach(System.out::println);
     }
 }

@@ -10,6 +10,7 @@ public class Lambda6 {
         List<String> items = Arrays.asList("cat", "elephant", "dog", "ant", "giraffe");
 
         items.sort(Comparator.comparingInt(String::length));
-        System.out.println("Sorted from shortest to longest: " + items);
+        System.out.println("Sorted from shortest to longest: ");
+        items.forEach(System.out::println);
     }
 }

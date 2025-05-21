@@ -6,8 +6,3 @@ public class Lambda5 {
         System.out.println("Pi value: " + pi.getPiValue());
     }
 }
-
-@FunctionalInterface
-interface PiValue {
-    double getPiValue();
-}

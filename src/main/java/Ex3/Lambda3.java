@@ -12,5 +12,6 @@ public class Lambda3 {
 
         System.out.println("Months printed using lambda:");
         months.forEach(month -> System.out.println(month));
+        months.forEach(System.out::println);
     }
 }

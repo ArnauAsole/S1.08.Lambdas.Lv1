@@ -13,5 +13,6 @@ public class Lambda1 {
                 .collect(Collectors.toList());
 
         System.out.println("Strings containing 'o': " + result);
+
     }
 }
